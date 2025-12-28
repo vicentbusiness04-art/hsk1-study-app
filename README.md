@@ -8,35 +8,35 @@ Sigue estos pasos en orden para ejecutar la app en tu ordenador:
 
 ### 1. Instalar Node.js (El motor)
 Para que esta aplicación funcione, necesitas **Node.js**. 
-- Descárgalo e instálalo desde aquí: [https://nodejs.org/](https://nodejs.org/) (Haz clic en el botón que dice **"LTS"**).
-- Si ya lo tienes instalado, puedes saltar al siguiente paso.
+- **Descárgalo aquí:** [https://nodejs.org/](https://nodejs.org/) (Haz clic en el botón que dice **"LTS"**).
+- Instálalo como cualquier otro programa. Si ya lo tienes, salta al siguiente paso.
 
-### 2. Obtener los archivos de la App
-Si todavía no tienes los archivos en tu ordenador:
-- Haz clic en el botón verde **"Code"** (arriba a la derecha) y elige **"Download ZIP"**.
-- Una vez descargado, **extrae el archivo ZIP** en una carpeta de tu ordenador.
-- Entra en la carpeta resultante. Sabrás que estás en el lugar correcto porque verás archivos como `package.json`, `index.html` y una carpeta llamada `src`.
+### 2. Descargar los archivos
+Si no tienes el código en tu ordenador, pulsa el siguiente enlace para descargarlo todo en un archivo comprimido:
+- 📥 [**Descargar Proyecto (ZIP)**](https://github.com/vicentbusiness04-art/hsk1-study-app/archive/refs/heads/main.zip)
 
-### 3. Abrir la Terminal en esta carpeta
-Ahora necesitamos dar órdenes al ordenador desde dentro de esa carpeta:
-- **En Windows:** Haz clic en la **barra de direcciones** de la carpeta (donde pone la ruta arriba, ej: `C:\Usuarios\Descargas...`), borra el texto, escribe la palabra `cmd` y pulsa la tecla **Enter**.
-- **En Mac:** Haz clic derecho sobre la carpeta del proyecto y elige "Nuevo terminal en la carpeta".
+**Importante:** Una vez descargado, haz clic derecho sobre el archivo y elige **"Extraer todo"**. Entra en la carpeta extraída; verás archivos como `package.json` e `index.html`.
 
-### 4. Instalar y Ejecutar
-En la ventana negra (terminal) que se acaba de abrir, escribe estos comandos (pulsa Enter después de cada uno):
+### 3. Abrir la consola (Terminal)
+Debes abrir la terminal **dentro** de la carpeta que acabas de extraer:
+- **En Windows:** Abre la carpeta, haz clic en la **barra de direcciones** (arriba, donde sale la ruta de la carpeta), borra todo, escribe `cmd` y pulsa **Enter**. [Ver imagen de ejemplo](https://winaero.com/blog/wp-content/uploads/2017/12/Windows-10-Explorer-address-bar-cmd.png)
+- **En Mac:** Haz clic derecho sobre la carpeta y elige "Nuevo terminal en la carpeta".
 
-1. **Instalar (solo la primera vez):** Descarga las piezas necesarias para que la app arranque.
+### 4. Comandos de instalación
+En la ventana negra que se ha abierto, escribe estos dos comandos (pulsa Enter tras cada uno):
+
+1. **Instalar piezas:** (Solo la primera vez)
    ```bash
    npm install
    ```
-2. **Arrancar:** Enciende la aplicación.
+2. **Arrancar App:**
    ```bash
    npm run dev
    ```
 
-### 5. ¡A estudiar!
-Cuando la terminal muestre un enlace, abre tu navegador (Chrome, Edge o Safari) y ve a:
-👉 **http://localhost:5173**
+### 5. Abrir la App
+Cuando la terminal te dé un enlace, abre tu navegador y ve a:
+👉 [**http://localhost:5173**](http://localhost:5173)
 
 ---
 
