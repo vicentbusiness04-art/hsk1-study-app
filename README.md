@@ -1,4 +1,4 @@
-# HSK1 Study App 🇨🇳
+# HSK1 Study App
 
 Una aplicación web interactiva diseñada para estudiar y practicar el vocabulario del nivel 1 de HSK (Chino Mandarín).
 
