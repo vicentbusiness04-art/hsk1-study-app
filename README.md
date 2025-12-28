@@ -1,45 +1,48 @@
-# HSK1 Study App
+# HSK1 Study App 🇨🇳
 
 Una aplicación web interactiva para estudiar el vocabulario de Chino Mandarín (HSK1).
 
 ## 🚀 Cómo poner en marcha la aplicación
 
-Si acabas de descargar este proyecto, sigue estos pasos:
+Sigue estos pasos en orden para ejecutar la app en tu ordenador:
 
-### 1. Instalar Node.js
-Para que esta aplicación funcione, necesitas tener **Node.js** en tu ordenador.
-- Descárgalo e instálalo desde aquí: [https://nodejs.org/](https://nodejs.org/) (elige la versión **LTS**).
+### 1. Instalar Node.js (El motor)
+Para que esta aplicación funcione, necesitas **Node.js**. 
+- Descárgalo e instálalo desde aquí: [https://nodejs.org/](https://nodejs.org/) (Haz clic en el botón que dice **"LTS"**).
+- Si ya lo tienes instalado, puedes saltar al siguiente paso.
 
-### 2. Abrir la carpeta del proyecto
-"La carpeta del proyecto" es esta misma carpeta donde se encuentra este archivo que estás leyendo (debe contener archivos como `package.json` y carpetas como `src`).
+### 2. Localizar los archivos del proyecto
+Asegúrate de haber descargado este proyecto y haber extraído el archivo ZIP (si lo descargaste así). 
+- Entra en la carpeta llamada `hsk1-study-app`. 
+- Sabrás que estás en el lugar correcto porque verás archivos como `package.json`, `index.html` y una carpeta llamada `src`.
 
-### 3. Abrir la Terminal en esa carpeta
-Para ejecutar los comandos, necesitas abrir una terminal **justo dentro** de esa carpeta:
-- **En Windows:** Abre la carpeta en el explorador de archivos. Arriba, en la **barra de direcciones** (donde pone la ruta), haz clic, borra todo, escribe `cmd` y pulsa **Enter**. Se abrirá una ventana negra.
-- **En Mac/Linux:** Haz clic derecho sobre la carpeta y selecciona "Abrir en Terminal".
+### 3. Abrir la Terminal en esta carpeta
+Ahora necesitamos dar órdenes al ordenador desde dentro de esa carpeta:
+- **En Windows:** Haz clic en la **barra de direcciones** de la carpeta (donde pone la ruta arriba, ej: `C:\Usuarios\Descargas...`), borra el texto, escribe la palabra `cmd` y pulsa la tecla **Enter**.
+- **En Mac:** Haz clic derecho sobre la carpeta del proyecto y elige "Nuevo terminal en la carpeta".
 
 ### 4. Instalar y Ejecutar
-Una vez tengas la terminal abierta (la ventana negra), escribe estos dos comandos uno tras otro:
+En la ventana negra (terminal) que se acaba de abrir, escribe estos comandos (pulsa Enter después de cada uno):
 
-1. **Instalar los componentes necesarios:**
+1. **Instalar (solo la primera vez):** Descarga las piezas necesarias.
    ```bash
    npm install
    ```
-2. **Arrancar la aplicación:**
+2. **Arrancar:** Enciende la aplicación.
    ```bash
    npm run dev
    ```
 
-### 5. ¡Listo!
-Cuando la terminal diga que está funcionando, abre tu navegador y escribe:
+### 5. ¡A estudiar!
+Cuando la terminal muestre un enlace, abre tu navegador (Chrome, Edge o Safari) y ve a:
 👉 **http://localhost:5173**
 
 ---
 
-## 🛠️ ¿Qué incluye esta app?
-- **Flashcards:** Para memorizar palabras.
-- **Quiz:** Para examinarte.
-- **Vocabulario:** Lista completa de palabras HSK1.
+## 🛠️ ¿Qué puedes hacer con esta app?
+- **Flashcards:** Tarjetas para memorizar palabras con Pinyin.
+- **Quiz:** Examen rápido para medir tu progreso.
+- **Lista:** Repaso de todo el vocabulario oficial HSK1.
 
 ---
 *Desarrollado con React + Vite + Tailwind CSS.*
