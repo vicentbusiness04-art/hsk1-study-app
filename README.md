@@ -11,10 +11,11 @@ Para que esta aplicación funcione, necesitas **Node.js**.
 - Descárgalo e instálalo desde aquí: [https://nodejs.org/](https://nodejs.org/) (Haz clic en el botón que dice **"LTS"**).
 - Si ya lo tienes instalado, puedes saltar al siguiente paso.
 
-### 2. Localizar los archivos del proyecto
-Asegúrate de haber descargado este proyecto y haber extraído el archivo ZIP (si lo descargaste así). 
-- Entra en la carpeta llamada `hsk1-study-app`. 
-- Sabrás que estás en el lugar correcto porque verás archivos como `package.json`, `index.html` y una carpeta llamada `src`.
+### 2. Obtener los archivos de la App
+Si todavía no tienes los archivos en tu ordenador:
+- Haz clic en el botón verde **"Code"** (arriba a la derecha) y elige **"Download ZIP"**.
+- Una vez descargado, **extrae el archivo ZIP** en una carpeta de tu ordenador.
+- Entra en la carpeta resultante. Sabrás que estás en el lugar correcto porque verás archivos como `package.json`, `index.html` y una carpeta llamada `src`.
 
 ### 3. Abrir la Terminal en esta carpeta
 Ahora necesitamos dar órdenes al ordenador desde dentro de esa carpeta:
@@ -24,7 +25,7 @@ Ahora necesitamos dar órdenes al ordenador desde dentro de esa carpeta:
 ### 4. Instalar y Ejecutar
 En la ventana negra (terminal) que se acaba de abrir, escribe estos comandos (pulsa Enter después de cada uno):
 
-1. **Instalar (solo la primera vez):** Descarga las piezas necesarias.
+1. **Instalar (solo la primera vez):** Descarga las piezas necesarias para que la app arranque.
    ```bash
    npm install
    ```
